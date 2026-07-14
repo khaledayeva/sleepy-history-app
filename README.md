@@ -10,9 +10,6 @@ The project is a full-stack, personal-first mobile app. The SwiftUI client handl
   <tr>
     <td align="center"><img src="docs/screenshots/home.jpg" alt="Sleepy History Home screen" width="240"><br><strong>Home</strong></td>
     <td align="center"><img src="docs/screenshots/create-story.jpg" alt="Sleepy History Create Story form" width="240"><br><strong>Create Story</strong></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="docs/screenshots/library.jpg" alt="Sleepy History Library screen" width="240"><br><strong>Library</strong></td>
     <td align="center"><img src="docs/screenshots/now-playing.jpg" alt="Sleepy History Now Playing screen" width="240"><br><strong>Now Playing</strong></td>
   </tr>
 </table>
