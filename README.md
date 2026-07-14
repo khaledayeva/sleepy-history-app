@@ -1,4 +1,14 @@
-# Sleepy History
+<div align="center">
+  <img src="assets/sleepy-history-icon.jpg" alt="Sleepy History app icon" width="240">
+  <h1>Sleepy History</h1>
+  <p><strong>Long-form historical stories with voiced narration.</strong></p>
+  <p>
+    <img src="https://img.shields.io/badge/iOS-26-000000" alt="iOS 26">
+    <img src="https://img.shields.io/badge/Swift-6-F05138" alt="Swift 6">
+    <img src="https://img.shields.io/badge/TypeScript-5.9-3178C6" alt="TypeScript 5.9">
+    <img src="https://img.shields.io/badge/license-MIT-22C55E" alt="MIT license">
+  </p>
+</div>
 
 Sleepy History is a native iOS bedtime audio app that turns a historical subject into an original, long-form story designed for calm listening. A user can choose a historical figure or an ordinary daily-life setting, guide the perspective and era, generate a sourced story package, and listen with the screen off.
 
