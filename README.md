@@ -314,4 +314,4 @@ Current product boundaries:
 
 ## License
 
-No open-source license has been selected for this repository. The code is available for viewing, but reuse rights are not granted until the owner adds a license.
+Sleepy History is available under the [MIT License](LICENSE).
