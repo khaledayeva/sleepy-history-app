@@ -1,0 +1,19 @@
+{
+  "name": "sleepy-history-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/src/server.js",
+    "worker": "node dist/src/worker.js --once",
+    "smoke:real-providers": "npm run build && node dist/src/realProviderSmoke.js",
+    "acceptance:full-length": "npm run build && node dist/src/fullLengthAcceptance.js --budget-cap-usd 25 --target-minutes 60",
+    "test": "npm run build && node --test dist/test/*.test.js",
+    "lint": "node scripts/lint.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  }
+}

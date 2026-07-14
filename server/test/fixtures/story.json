@@ -1,0 +1,72 @@
+{
+  "id": "story_abbasid_baker",
+  "title": "A Lantern Beside the Abbasid Oven",
+  "subtitle": "A quiet evening in ninth-century Baghdad",
+  "kind": "daily_life",
+  "subject": "a baker in Abbasid Baghdad",
+  "synopsis": "A gentle walk through the routines, sounds, and small obligations of a market baker as the city settles toward sleep.",
+  "targetDurationMinutes": 60,
+  "estimatedDurationSeconds": 3600,
+  "createdAt": "2026-05-10T00:30:00.000Z",
+  "chapters": [
+    {
+      "id": "chapter_01",
+      "index": 1,
+      "title": "Before the First Ember",
+      "summary": "The baker wakes before dawn and prepares grain, water, and a quiet workbench.",
+      "estimatedDurationSeconds": 420,
+      "transcript": "Before the first ember brightens, the room is still and cool.",
+      "sourceIds": ["source_abbasid_baghdad"]
+    },
+    {
+      "id": "chapter_02",
+      "index": 2,
+      "title": "The Market Softens",
+      "summary": "The stall closes slowly while neighbors trade small words and familiar goods.",
+      "estimatedDurationSeconds": 450,
+      "transcript": "By late afternoon, the market has grown softer around the edges.",
+      "sourceIds": ["source_medieval_bread"]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source_abbasid_baghdad",
+      "title": "Daily Life in Abbasid Baghdad",
+      "url": "https://www.worldhistory.org/Abbasid_Dynasty/",
+      "publisher": "World History Encyclopedia",
+      "retrievedAt": "2026-05-10T00:20:00.000Z",
+      "notes": "General context source for Abbasid urban life."
+    },
+    {
+      "id": "source_medieval_bread",
+      "title": "Bread and Urban Foodways",
+      "publisher": "Fixture Archive",
+      "notes": "Placeholder fixture source for bread-making details."
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset_cover_full",
+      "kind": "cover_full",
+      "mimeType": "image/png",
+      "uri": "sleepy-history://assets/story_abbasid_baker/cover.png",
+      "sizeBytes": 512000,
+      "width": 1536,
+      "height": 1536
+    },
+    {
+      "id": "asset_audio",
+      "kind": "audio",
+      "mimeType": "audio/mpeg",
+      "uri": "sleepy-history://assets/story_abbasid_baker/story.mp3",
+      "sizeBytes": 43200000,
+      "durationSeconds": 3600
+    },
+    {
+      "id": "asset_sources",
+      "kind": "sources",
+      "mimeType": "application/json",
+      "uri": "sleepy-history://assets/story_abbasid_baker/sources.json"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+# macOS
+.DS_Store
+
+# Xcode
+DerivedData/
+*.xcuserdata/
+xcuserdata/
+*.xcuserstate
+*.xcresult
+*.moved-aside
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+
+# Node / TypeScript
+node_modules/
+dist/
+coverage/
+.turbo/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.p8
+*.key
+*.mobileprovision
+
+# Generated app assets and media
+generated/
+downloads/
+data/
+*.mp3
+*.m4a
+*.aac
+*.wav
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local agent and validation state is machine-specific.
+.codex-harness/
+.starforge/

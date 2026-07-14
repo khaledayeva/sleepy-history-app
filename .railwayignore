@@ -1,0 +1,7 @@
+.codex-harness/
+.env
+docs/
+ios/
+node_modules/
+server/node_modules/
+server/dist/

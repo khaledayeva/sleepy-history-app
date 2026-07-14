@@ -1,0 +1,36 @@
+{
+  "id": "job_01hx_sleepy_history",
+  "status": "writing",
+  "request": {
+    "schemaVersion": "2026-05-10",
+    "kind": "daily_life",
+    "subject": "a baker in Abbasid Baghdad",
+    "targetDurationMinutes": 60,
+    "era": "9th century CE",
+    "location": "Baghdad",
+    "perspective": "ordinary worker closing a quiet day at the market",
+    "voiceId": "calm_narrator_01",
+    "ambience": "rain",
+    "safety": {
+      "bedtimeTone": "very_gentle",
+      "allowHistoricalViolenceContext": false
+    }
+  },
+  "progress": {
+    "stage": "writing",
+    "percent": 42,
+    "message": "Drafting chapter 4 of 10"
+  },
+  "createdAt": "2026-05-10T00:00:00.000Z",
+  "updatedAt": "2026-05-10T00:12:00.000Z",
+  "metadata": {
+    "contentReview": {
+      "content_policy_version": "2026-05-09",
+      "prompt_policy_decision": "allow",
+      "review_status": "passed",
+      "reviewer": "deterministic-content-review",
+      "reviewed_at": "2026-05-10T00:11:00.000Z",
+      "findings": []
+    }
+  }
+}

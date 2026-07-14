@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "2026-05-10",
+  "kind": "daily_life",
+  "subject": "a baker in Abbasid Baghdad",
+  "targetDurationMinutes": 60,
+  "era": "9th century CE",
+  "location": "Baghdad",
+  "perspective": "ordinary worker closing a quiet day at the market",
+  "voiceId": "calm_narrator_01",
+  "ambience": "rain",
+  "safety": {
+    "bedtimeTone": "very_gentle",
+    "allowHistoricalViolenceContext": false
+  }
+}

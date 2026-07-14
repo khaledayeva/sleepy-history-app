@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00CCB48260319A7C42DBA1AA /* ArtworkCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14EE0560BD2251C73242E6C /* ArtworkCache.swift */; };
+		0D0DE0A60214C80FA605B0A8 /* PersistentModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3895AD89DE52533A212901 /* PersistentModels.swift */; };
+		165D07A4657461819A17965D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E207685CA8B6A1E28D66731 /* Assets.xcassets */; };
+		208E5ED4F61832126313C570 /* DownloadAssetFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012FC25CBF12ED924FB29421 /* DownloadAssetFetcher.swift */; };
+		2B2D85DF5C577F89CC8B3DE6 /* SleepyHistorySmokeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FAE7A89AC9937572573AA4 /* SleepyHistorySmokeUITests.swift */; };
+		2C3304220D32164C743E8FF2 /* SleepyHistoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F503B09697DF4D512B3B50B7 /* SleepyHistoryApp.swift */; };
+		3F74FC066150F7A466D0F19E /* SleepyHistoryAPIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DD096524CA20B542314980 /* SleepyHistoryAPIClientTests.swift */; };
+		4187C3633B34EB495986C59F /* PlaybackState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295C8710475E66B0AE15FC77 /* PlaybackState.swift */; };
+		5197FB03582BA2746F73A74F /* DeviceEnrollmentClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76FCC308411F817825407B5 /* DeviceEnrollmentClientTests.swift */; };
+		56DFBA1765795F0BE08FAE99 /* StoryAudioSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4B6C7BBDDE2EEC4BA86DFA /* StoryAudioSource.swift */; };
+		578D2952F2D2B7BE79A57FF2 /* PersistenceContainerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0429AE154A90E0C1E51E2D /* PersistenceContainerFactory.swift */; };
+		5BA202EA7B7675FE40C1CCF1 /* SleepyHistoryAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A0942BACAB6DD26696C694 /* SleepyHistoryAPIClient.swift */; };
+		6955C26FDF16809836E48C16 /* PlaybackEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E721BF256D01999481A6408 /* PlaybackEngine.swift */; };
+		6FB3A72845D855001E3C16E6 /* EnrollmentTokenStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DEF19A386BD2E1CB9D1742 /* EnrollmentTokenStore.swift */; };
+		71ECC811F81EC624C208C76B /* ArtworkCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63FD27CF8D2AF2708577C7B /* ArtworkCacheTests.swift */; };
+		7DB0A3DBBFA1A2A6B5BE5B01 /* DeviceEnrollmentClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157CB9FAD50467BCE28734AA /* DeviceEnrollmentClient.swift */; };
+		85B8D6E31F9B302589B29AB8 /* EnrollmentTokenStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA4AB76D5F72268F58DEEC4 /* EnrollmentTokenStoreTests.swift */; };
+		9109DB0C6CE9D2AA39212C6C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2B68A04CA721B54A07ED58 /* RootView.swift */; };
+		9113D9D06BC55FA44B86E425 /* PlaybackPositionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC41CA3C58CBB8AC1C3D24FC /* PlaybackPositionStore.swift */; };
+		92416EEE88EFC79B8D13A95C /* SleepyHistoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEBE2D79A4C72C954710CF8 /* SleepyHistoryTests.swift */; };
+		92CC1ADD6B5A6F3B2F8CF309 /* DownloadServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE08DDDB5D4478778CA37D36 /* DownloadServiceTests.swift */; };
+		92DB62AAF5121E49062384E7 /* DownloadFileStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE1AD50192F35A4FCA36651 /* DownloadFileStore.swift */; };
+		A8878576806DD3107795F08D /* SleepyTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4C61218556F8790EC763E8 /* SleepyTheme.swift */; };
+		BA116532BAE07AFD8C189C03 /* FullMockMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFA8E5DB93576B0FD146F43 /* FullMockMode.swift */; };
+		BA80DDED0C584EC99784F53F /* PlaybackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD47D84DFF2B41B256A6DB0 /* PlaybackService.swift */; };
+		BF69CD8F9B7BD8B8E475532C /* PlaybackServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B1FCEBE30184893685524 /* PlaybackServiceTests.swift */; };
+		CD8811643EE941788A51A7C6 /* CachedArtworkImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FE386070F5E24555545763 /* CachedArtworkImage.swift */; };
+		F96877E327FABCB77DB04EAC /* StoryDownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66965062647E7D148561AD4D /* StoryDownloadService.swift */; };
+		FB97AC45D47C103D979745B2 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CC147B6BEB7A2D09CB27A6 /* AppConfiguration.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32F02ABF39F7071311085E76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13D0DCB8122AA5C7FCD5495D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37BB9339C53C3EAE9DA702EB;
+			remoteInfo = SleepyHistory;
+		};
+		38D495BAEC3C705DFD024C2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13D0DCB8122AA5C7FCD5495D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37BB9339C53C3EAE9DA702EB;
+			remoteInfo = SleepyHistory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012FC25CBF12ED924FB29421 /* DownloadAssetFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadAssetFetcher.swift; sourceTree = "<group>"; };
+		01CC147B6BEB7A2D09CB27A6 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		08208D4FE2F8D23931983338 /* SleepyHistory.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SleepyHistory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08F3F37A1444C7E602F02D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		11FAE7A89AC9937572573AA4 /* SleepyHistorySmokeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepyHistorySmokeUITests.swift; sourceTree = "<group>"; };
+		157CB9FAD50467BCE28734AA /* DeviceEnrollmentClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceEnrollmentClient.swift; sourceTree = "<group>"; };
+		1DD47D84DFF2B41B256A6DB0 /* PlaybackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackService.swift; sourceTree = "<group>"; };
+		1E721BF256D01999481A6408 /* PlaybackEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackEngine.swift; sourceTree = "<group>"; };
+		295C8710475E66B0AE15FC77 /* PlaybackState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackState.swift; sourceTree = "<group>"; };
+		2C2B68A04CA721B54A07ED58 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		2FEBE2D79A4C72C954710CF8 /* SleepyHistoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepyHistoryTests.swift; sourceTree = "<group>"; };
+		3E207685CA8B6A1E28D66731 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A4C61218556F8790EC763E8 /* SleepyTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepyTheme.swift; sourceTree = "<group>"; };
+		5AA4AB76D5F72268F58DEEC4 /* EnrollmentTokenStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrollmentTokenStoreTests.swift; sourceTree = "<group>"; };
+		66965062647E7D148561AD4D /* StoryDownloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryDownloadService.swift; sourceTree = "<group>"; };
+		7F3895AD89DE52533A212901 /* PersistentModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentModels.swift; sourceTree = "<group>"; };
+		9FFA8E5DB93576B0FD146F43 /* FullMockMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullMockMode.swift; sourceTree = "<group>"; };
+		AC41CA3C58CBB8AC1C3D24FC /* PlaybackPositionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackPositionStore.swift; sourceTree = "<group>"; };
+		AC6F9C26FBAA7F80C871A043 /* SleepyHistoryUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SleepyHistoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4DD096524CA20B542314980 /* SleepyHistoryAPIClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepyHistoryAPIClientTests.swift; sourceTree = "<group>"; };
+		B76FCC308411F817825407B5 /* DeviceEnrollmentClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceEnrollmentClientTests.swift; sourceTree = "<group>"; };
+		BE0429AE154A90E0C1E51E2D /* PersistenceContainerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceContainerFactory.swift; sourceTree = "<group>"; };
+		C2DEF19A386BD2E1CB9D1742 /* EnrollmentTokenStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrollmentTokenStore.swift; sourceTree = "<group>"; };
+		CBE1AD50192F35A4FCA36651 /* DownloadFileStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadFileStore.swift; sourceTree = "<group>"; };
+		E63FD27CF8D2AF2708577C7B /* ArtworkCacheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkCacheTests.swift; sourceTree = "<group>"; };
+		E75D53D06007DF0D9CA773D2 /* SleepyHistoryTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SleepyHistoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F14EE0560BD2251C73242E6C /* ArtworkCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkCache.swift; sourceTree = "<group>"; };
+		F1A0942BACAB6DD26696C694 /* SleepyHistoryAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepyHistoryAPIClient.swift; sourceTree = "<group>"; };
+		F2FE386070F5E24555545763 /* CachedArtworkImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedArtworkImage.swift; sourceTree = "<group>"; };
+		F503B09697DF4D512B3B50B7 /* SleepyHistoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepyHistoryApp.swift; sourceTree = "<group>"; };
+		F70B1FCEBE30184893685524 /* PlaybackServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackServiceTests.swift; sourceTree = "<group>"; };
+		FE08DDDB5D4478778CA37D36 /* DownloadServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadServiceTests.swift; sourceTree = "<group>"; };
+		FF4B6C7BBDDE2EEC4BA86DFA /* StoryAudioSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryAudioSource.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0076E073DD56147185FCB1EC /* SleepyHistory */ = {
+			isa = PBXGroup;
+			children = (
+				756F00B20AD1337571520A2E /* App */,
+				76B1212E0C26A41C7E45986B /* Artwork */,
+				A3D09C5B3FAE1F8805683611 /* Downloads */,
+				83566E4075E8CF50B4967354 /* Networking */,
+				2BDBCD8CD910D0758B8E2072 /* Persistence */,
+				36BFD2FF9F8D35E3D5A6B130 /* Playback */,
+				5F22350F7C8FCF7180BC5DC9 /* Resources */,
+				A2B9AA115687C07FA3D5EF42 /* Security */,
+				CDB46CC2EACBF517CD566624 /* Supporting */,
+			);
+			path = SleepyHistory;
+			sourceTree = "<group>";
+		};
+		2BDBCD8CD910D0758B8E2072 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				BE0429AE154A90E0C1E51E2D /* PersistenceContainerFactory.swift */,
+				7F3895AD89DE52533A212901 /* PersistentModels.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		2F9873DD7813B9B33CD288AD /* SleepyHistoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				E63FD27CF8D2AF2708577C7B /* ArtworkCacheTests.swift */,
+				B76FCC308411F817825407B5 /* DeviceEnrollmentClientTests.swift */,
+				FE08DDDB5D4478778CA37D36 /* DownloadServiceTests.swift */,
+				5AA4AB76D5F72268F58DEEC4 /* EnrollmentTokenStoreTests.swift */,
+				F70B1FCEBE30184893685524 /* PlaybackServiceTests.swift */,
+				B4DD096524CA20B542314980 /* SleepyHistoryAPIClientTests.swift */,
+				2FEBE2D79A4C72C954710CF8 /* SleepyHistoryTests.swift */,
+			);
+			path = SleepyHistoryTests;
+			sourceTree = "<group>";
+		};
+		36BFD2FF9F8D35E3D5A6B130 /* Playback */ = {
+			isa = PBXGroup;
+			children = (
+				1E721BF256D01999481A6408 /* PlaybackEngine.swift */,
+				AC41CA3C58CBB8AC1C3D24FC /* PlaybackPositionStore.swift */,
+				1DD47D84DFF2B41B256A6DB0 /* PlaybackService.swift */,
+				295C8710475E66B0AE15FC77 /* PlaybackState.swift */,
+				FF4B6C7BBDDE2EEC4BA86DFA /* StoryAudioSource.swift */,
+			);
+			path = Playback;
+			sourceTree = "<group>";
+		};
+		3AA8C0BECD0C16E4AA9A6DBB /* SleepyHistoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11FAE7A89AC9937572573AA4 /* SleepyHistorySmokeUITests.swift */,
+			);
+			path = SleepyHistoryUITests;
+			sourceTree = "<group>";
+		};
+		5F22350F7C8FCF7180BC5DC9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3E207685CA8B6A1E28D66731 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		756F00B20AD1337571520A2E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				01CC147B6BEB7A2D09CB27A6 /* AppConfiguration.swift */,
+				9FFA8E5DB93576B0FD146F43 /* FullMockMode.swift */,
+				2C2B68A04CA721B54A07ED58 /* RootView.swift */,
+				F503B09697DF4D512B3B50B7 /* SleepyHistoryApp.swift */,
+				5A4C61218556F8790EC763E8 /* SleepyTheme.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		76B1212E0C26A41C7E45986B /* Artwork */ = {
+			isa = PBXGroup;
+			children = (
+				F14EE0560BD2251C73242E6C /* ArtworkCache.swift */,
+				F2FE386070F5E24555545763 /* CachedArtworkImage.swift */,
+			);
+			path = Artwork;
+			sourceTree = "<group>";
+		};
+		7A3F5577310FCD7F259FBFAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08208D4FE2F8D23931983338 /* SleepyHistory.app */,
+				E75D53D06007DF0D9CA773D2 /* SleepyHistoryTests.xctest */,
+				AC6F9C26FBAA7F80C871A043 /* SleepyHistoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83566E4075E8CF50B4967354 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F1A0942BACAB6DD26696C694 /* SleepyHistoryAPIClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A2B9AA115687C07FA3D5EF42 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				157CB9FAD50467BCE28734AA /* DeviceEnrollmentClient.swift */,
+				C2DEF19A386BD2E1CB9D1742 /* EnrollmentTokenStore.swift */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		A3D09C5B3FAE1F8805683611 /* Downloads */ = {
+			isa = PBXGroup;
+			children = (
+				012FC25CBF12ED924FB29421 /* DownloadAssetFetcher.swift */,
+				CBE1AD50192F35A4FCA36651 /* DownloadFileStore.swift */,
+				66965062647E7D148561AD4D /* StoryDownloadService.swift */,
+			);
+			path = Downloads;
+			sourceTree = "<group>";
+		};
+		B813B3B5D1A69FBC4BF6B9A1 = {
+			isa = PBXGroup;
+			children = (
+				0076E073DD56147185FCB1EC /* SleepyHistory */,
+				2F9873DD7813B9B33CD288AD /* SleepyHistoryTests */,
+				3AA8C0BECD0C16E4AA9A6DBB /* SleepyHistoryUITests */,
+				7A3F5577310FCD7F259FBFAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDB46CC2EACBF517CD566624 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				08F3F37A1444C7E602F02D51 /* Info.plist */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		160A7B6E5D4143E8D888C745 /* SleepyHistoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69CD99BB5F87BD94BAEA8B49 /* Build configuration list for PBXNativeTarget "SleepyHistoryUITests" */;
+			buildPhases = (
+				2DB0BA9D78A91B9238F475A5 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				890F9A707770C598805A6FC1 /* PBXTargetDependency */,
+			);
+			name = SleepyHistoryUITests;
+			packageProductDependencies = (
+			);
+			productName = SleepyHistoryUITests;
+			productReference = AC6F9C26FBAA7F80C871A043 /* SleepyHistoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		37BB9339C53C3EAE9DA702EB /* SleepyHistory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36BBA6947192E04A0C72EB73 /* Build configuration list for PBXNativeTarget "SleepyHistory" */;
+			buildPhases = (
+				B84D9AFF9111A2AA04A2EDED /* Sources */,
+				9AC36668162085E800F92045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SleepyHistory;
+			packageProductDependencies = (
+			);
+			productName = SleepyHistory;
+			productReference = 08208D4FE2F8D23931983338 /* SleepyHistory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A05ED59084F63C334E63FA0 /* SleepyHistoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD77F8D182499E1488ED8135 /* Build configuration list for PBXNativeTarget "SleepyHistoryTests" */;
+			buildPhases = (
+				996B7AE5A83E32C875766B0E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A03084787CBC3E3F501A5527 /* PBXTargetDependency */,
+			);
+			name = SleepyHistoryTests;
+			packageProductDependencies = (
+			);
+			productName = SleepyHistoryTests;
+			productReference = E75D53D06007DF0D9CA773D2 /* SleepyHistoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13D0DCB8122AA5C7FCD5495D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					160A7B6E5D4143E8D888C745 = {
+						ProvisioningStyle = Automatic;
+						TestTargetID = 37BB9339C53C3EAE9DA702EB;
+					};
+					37BB9339C53C3EAE9DA702EB = {
+						ProvisioningStyle = Automatic;
+					};
+					3A05ED59084F63C334E63FA0 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EE6FCDDC2499ED35199D7AA7 /* Build configuration list for PBXProject "SleepyHistory" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B813B3B5D1A69FBC4BF6B9A1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37BB9339C53C3EAE9DA702EB /* SleepyHistory */,
+				3A05ED59084F63C334E63FA0 /* SleepyHistoryTests */,
+				160A7B6E5D4143E8D888C745 /* SleepyHistoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AC36668162085E800F92045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165D07A4657461819A17965D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DB0BA9D78A91B9238F475A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2D85DF5C577F89CC8B3DE6 /* SleepyHistorySmokeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		996B7AE5A83E32C875766B0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71ECC811F81EC624C208C76B /* ArtworkCacheTests.swift in Sources */,
+				5197FB03582BA2746F73A74F /* DeviceEnrollmentClientTests.swift in Sources */,
+				92CC1ADD6B5A6F3B2F8CF309 /* DownloadServiceTests.swift in Sources */,
+				85B8D6E31F9B302589B29AB8 /* EnrollmentTokenStoreTests.swift in Sources */,
+				BF69CD8F9B7BD8B8E475532C /* PlaybackServiceTests.swift in Sources */,
+				3F74FC066150F7A466D0F19E /* SleepyHistoryAPIClientTests.swift in Sources */,
+				92416EEE88EFC79B8D13A95C /* SleepyHistoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B84D9AFF9111A2AA04A2EDED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB97AC45D47C103D979745B2 /* AppConfiguration.swift in Sources */,
+				00CCB48260319A7C42DBA1AA /* ArtworkCache.swift in Sources */,
+				CD8811643EE941788A51A7C6 /* CachedArtworkImage.swift in Sources */,
+				7DB0A3DBBFA1A2A6B5BE5B01 /* DeviceEnrollmentClient.swift in Sources */,
+				208E5ED4F61832126313C570 /* DownloadAssetFetcher.swift in Sources */,
+				92DB62AAF5121E49062384E7 /* DownloadFileStore.swift in Sources */,
+				6FB3A72845D855001E3C16E6 /* EnrollmentTokenStore.swift in Sources */,
+				BA116532BAE07AFD8C189C03 /* FullMockMode.swift in Sources */,
+				578D2952F2D2B7BE79A57FF2 /* PersistenceContainerFactory.swift in Sources */,
+				0D0DE0A60214C80FA605B0A8 /* PersistentModels.swift in Sources */,
+				6955C26FDF16809836E48C16 /* PlaybackEngine.swift in Sources */,
+				9113D9D06BC55FA44B86E425 /* PlaybackPositionStore.swift in Sources */,
+				BA80DDED0C584EC99784F53F /* PlaybackService.swift in Sources */,
+				4187C3633B34EB495986C59F /* PlaybackState.swift in Sources */,
+				9109DB0C6CE9D2AA39212C6C /* RootView.swift in Sources */,
+				5BA202EA7B7675FE40C1CCF1 /* SleepyHistoryAPIClient.swift in Sources */,
+				2C3304220D32164C743E8FF2 /* SleepyHistoryApp.swift in Sources */,
+				A8878576806DD3107795F08D /* SleepyTheme.swift in Sources */,
+				56DFBA1765795F0BE08FAE99 /* StoryAudioSource.swift in Sources */,
+				F96877E327FABCB77DB04EAC /* StoryDownloadService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		890F9A707770C598805A6FC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37BB9339C53C3EAE9DA702EB /* SleepyHistory */;
+			targetProxy = 32F02ABF39F7071311085E76 /* PBXContainerItemProxy */;
+		};
+		A03084787CBC3E3F501A5527 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37BB9339C53C3EAE9DA702EB /* SleepyHistory */;
+			targetProxy = 38D495BAEC3C705DFD024C2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1FC5B757A91B876EC1CB3002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = SleepyHistory/Supporting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khaledayeva.SleepyHistory;
+				PRODUCT_NAME = SleepyHistory;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		38267D32BF5859C18EE267AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		4AF1A82C2960729DFE42EEEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = SleepyHistory/Supporting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khaledayeva.SleepyHistory;
+				PRODUCT_NAME = SleepyHistory;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8884720C118194353041CC4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.khaledayeva.SleepyHistoryTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SleepyHistory.app/SleepyHistory";
+			};
+			name = Debug;
+		};
+		8AA2E0A852FAC7CD7471B448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.khaledayeva.SleepyHistoryTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SleepyHistory.app/SleepyHistory";
+			};
+			name = Release;
+		};
+		CD654FEC90CC3540D8A2DAC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.khaledayeva.SleepyHistoryUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SleepyHistory;
+			};
+			name = Debug;
+		};
+		CF0EE2E3D8420253A1F19E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.khaledayeva.SleepyHistoryUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SleepyHistory;
+			};
+			name = Release;
+		};
+		EB96277F928187B396007F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36BBA6947192E04A0C72EB73 /* Build configuration list for PBXNativeTarget "SleepyHistory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF1A82C2960729DFE42EEEE /* Debug */,
+				1FC5B757A91B876EC1CB3002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		69CD99BB5F87BD94BAEA8B49 /* Build configuration list for PBXNativeTarget "SleepyHistoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD654FEC90CC3540D8A2DAC5 /* Debug */,
+				CF0EE2E3D8420253A1F19E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BD77F8D182499E1488ED8135 /* Build configuration list for PBXNativeTarget "SleepyHistoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8884720C118194353041CC4C /* Debug */,
+				8AA2E0A852FAC7CD7471B448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EE6FCDDC2499ED35199D7AA7 /* Build configuration list for PBXProject "SleepyHistory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB96277F928187B396007F45 /* Debug */,
+				38267D32BF5859C18EE267AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13D0DCB8122AA5C7FCD5495D /* Project object */;
+}

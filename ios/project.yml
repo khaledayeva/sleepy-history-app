@@ -1,0 +1,61 @@
+name: SleepyHistory
+options:
+  bundleIdPrefix: com.khaledayeva
+  createIntermediateGroups: true
+  deploymentTarget:
+    iOS: "26.0"
+settings:
+  base:
+    CODE_SIGN_STYLE: Automatic
+    ENABLE_USER_SCRIPT_SANDBOXING: true
+    IPHONEOS_DEPLOYMENT_TARGET: "26.0"
+    SWIFT_VERSION: "6.0"
+targets:
+  SleepyHistory:
+    type: application
+    platform: iOS
+    deploymentTarget: "26.0"
+    sources:
+      - path: SleepyHistory
+    resources:
+      - path: SleepyHistory/Resources/Assets.xcassets
+    info:
+      path: SleepyHistory/Supporting/Info.plist
+      properties:
+        CFBundleDisplayName: Sleepy History
+        SleepyHistoryAPIBaseURL: https://sleepy-history-api-production.up.railway.app
+        UIBackgroundModes:
+          - audio
+        UILaunchScreen: {}
+    settings:
+      base:
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        CURRENT_PROJECT_VERSION: 1
+        MARKETING_VERSION: 0.1.0
+        PRODUCT_BUNDLE_IDENTIFIER: com.khaledayeva.SleepyHistory
+        PRODUCT_NAME: SleepyHistory
+        TARGETED_DEVICE_FAMILY: 1
+  SleepyHistoryTests:
+    type: bundle.unit-test
+    platform: iOS
+    deploymentTarget: "26.0"
+    sources:
+      - path: SleepyHistoryTests
+    dependencies:
+      - target: SleepyHistory
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: true
+        PRODUCT_BUNDLE_IDENTIFIER: com.khaledayeva.SleepyHistoryTests
+  SleepyHistoryUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    deploymentTarget: "26.0"
+    sources:
+      - path: SleepyHistoryUITests
+    dependencies:
+      - target: SleepyHistory
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: true
+        PRODUCT_BUNDLE_IDENTIFIER: com.khaledayeva.SleepyHistoryUITests

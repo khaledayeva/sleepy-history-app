@@ -1,0 +1,9 @@
+{
+  "code": "provider_temporarily_unavailable",
+  "message": "The narration provider is temporarily unavailable. Please try again shortly.",
+  "retryable": true,
+  "details": {
+    "provider": "voice",
+    "retryAfterSeconds": 120
+  }
+}

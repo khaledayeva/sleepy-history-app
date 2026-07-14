@@ -1,0 +1,10 @@
+{
+  "id": "asset_cover_full",
+  "kind": "cover_full",
+  "mimeType": "image/png",
+  "uri": "sleepy-history://assets/story_abbasid_baker/cover.png",
+  "sizeBytes": 512000,
+  "width": 1536,
+  "height": 1536,
+  "checksum": "sha256:fixture"
+}

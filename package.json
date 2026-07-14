@@ -1,0 +1,13 @@
+{
+  "name": "sleepy-history",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "npm --prefix server ci && npm --prefix server run build",
+    "start": "npm --prefix server start"
+  }
+}
